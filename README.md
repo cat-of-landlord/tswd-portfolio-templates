@@ -1,112 +1,59 @@
-| [home page](https://cmustudent.github.io/tswd-portfolio-templates/) | [data viz examples](dataviz-examples) | [critique by design](critique-by-design) | [final project I](final-project-part-one) | [final project II](final-project-part-two) | [final project III](final-project-part-three) |
+| [home page](https://cat-of-landlord.github.io/tswd-portfolio-templates/) | [data viz examples](dataviz-examples) | [critique by design](critique-by-design) | [final project I](final-project-part-one) | [final project II](final-project-part-two) | [final project III](final-project-part-three) |
 
-# TSWD-portfolio-templates
-These portfolio templates are for setting up your Telling Stories with Data site.  Edit these pages and add new ones as needed.   
-It's always helpful to keep track of your web URL.  Consider putting that somewhere on your page for easy reference: 
+# Junhao Huang — Data Visualization Portfolio
 
-- Web page URL: https://cmustudent.github.io/tswd-portfolio-templates/
-- This repository: https://github.com/cmustudent/tswd-portfolio-templates/
+This is my public portfolio for **Telling Stories with Data** at Carnegie Mellon University, Heinz College. Here's where my coursework, critiques, and final project will live as the semester progresses.
 
-# Portfolio
-This is my public portfolio for Telling Stories with Data at CMU!  Here's where all my cool work will go.  You should probably hire me. 
+- Web page URL: https://cat-of-landlord.github.io/tswd-portfolio-templates/
+- This repository: https://github.com/cat-of-landlord/tswd-portfolio-templates
 
 # About me
-Hi!  I really like data.  And I like visualizations.  So I guess you can say that I like data visualizations!
+
+Hi, I'm **Junhao Huang**! I'm a Master of Information Systems Management (MISM) student at Carnegie Mellon University's Heinz College, expected to graduate in December 2027. I did my undergrad at Emory University, where I double-majored in Computer Science (B.S.) and Mathematics (B.A.), graduating with a 3.85 GPA (3.96 major GPA).
+
+<img src="junhao-huang.jpg" width="260"/>
+
+Before grad school, I worked as a Research Assistant with Prof. Kai Shu's group at Emory, where I co-authored a paper on a retrieval-grounded differential evidence framework for medical multiple-choice question answering — accepted to the AACL-IJCNLP 2026 Main Conference. I've also interned as a Network Engineer at New H3C Technologies (deploying a virtualized cloud-desktop solution for a government tax bureau) and as a Management System Development intern at Dezhan Metals Processing Group, where I helped translate 150+ client requirements into system specs and prototyped UI in Axure.
+
+In project work, I led a 4-person team to win the **"Best Insight" award** at the 2025 Emory Data Fest (top 3 of 20 teams), built the front-end for a medical-device selection chatbot (CS 370 Practicum), and implemented logistic-regression, reinforcement-learning (Q-learning / value iteration) and neural-network models across my ML and AI coursework.
+
+My technical toolkit: Python, Java, C, SQL, JavaScript/HTML/CSS, MATLAB. Languages: English (fluent), Mandarin and Cantonese (native), Japanese (basic).
+
+- GitHub: https://github.com/cat-of-landlord
+- LinkedIn: https://www.linkedin.com/in/junhao-huang-0bba09371
 
 # What I hope to learn
-All the things - obviously. Maybe I want to make a list of all the things.  If so, I can do so in Markdown like this: 
 
-1. List item #1
-2. List item #2
-3. List item #3
+Coming from a CS + math background, I'm comfortable building models and writing queries — but I want to get genuinely good at the *communication* side of data: how to turn an analysis into a story that a non-technical decision-maker understands, trusts, and acts on. Specifically, I hope to:
 
-or...
+1. Choose the right chart type and visual encoding for a given dataset and audience, instead of defaulting to whatever plot looks prettiest.
+2. Design clean, credible visualizations (including interactive ones) that guide a reader through a narrative, rather than overwhelming them with charts.
+3. Critique my own work — and others' — using design principles rather than gut feel.
+4. Build and embed visualizations that hold up to scrutiny: honest labels, clear sources, and no misleading encodings.
 
-- List item #1
-- List item #2
-- List item #3
+After graduating, I'm aiming for roles at the intersection of data, product and engineering — data science, product analytics, or software engineering — where the ability to explain data clearly to both technical and non-technical audiences is a real competitive edge.
 
 # Portfolio
 
-# Examples
-You can keep this section for stuff from in-class demos or your other work, or remove it. 
+This section pre-populates the pages I'll fill in throughout the course. The page stubs are already scaffolded from the course template.
 
-## Assignment: [Visualizing overnment Debt](visualizing-government-debt)
-For this assignment, make sure you set up and link to a new page.  This page is linking to a new Markdown document called `visualizing-government-debt.md`.  For links to Markdown files in your repository, you can just include the name of the page without the `.md` extension. 
+## Assignments
 
-## Assignment 3&4: [Critique by Design](critique-by-design)
-For this assignment, make sure you set up and link to a new page.  This page is linking to a new Markdown document called `critique-by-design.md`.  
+- [Data visualization examples](dataviz-examples)
+- [Critique by Design](critique-by-design)
 
 ## Final project
-Here it might be helpful to include a high-level description of your final project. 
-[Part I](final-project-part-one)
-[Part II](final-project-part-two)
-Part III(final-project-part-three)
+
+The final project will be documented across three parts:
+
+- [Final Project Part I](final-project-part-one)
+- [Final Project Part II](final-project-part-two)
+- [Final Project Part III](final-project-part-three)
 
 ---
-## Other stuff you can do (you can remove this section - it's just for your reference.)
-
-### Changing text
-
-You can change text, like this: 
-
-**Here's some bold** text.  Here's some *italic* text. Here's some ~~strikethrough~~ text. 
-
-### Creating tables
-
-You can build tables like this: 
-
-| Name         | Type of pet | Favority activity 1 | FA 2   | FA 3            | FA 4                                |
-|--------------|-------------|---------------------|--------|-----------------|-------------------------------------|
-| Eli          | cat         | Sleeping            | Eating | Being pet       | Plotting to overthow dog empire     |
-| Howard       | dog         | You                 | You    | You             | Eating                              |
-| Frankenstein | fish        | Swimming            | Eating | Blowing bubbles | Forgetting                          |
-
-An easy-to-use template generator tool [can be found here](https://www.tablesgenerator.com/markdown_tables)
-
-You can use different headings, like this: 
-
-# Here's a large title (H1)
-## Here's a subtitle (H2)
-### ...and so on (H3)
-You get the idea - just don't forget the space between the # and your title.  `#Title` won't work, but `# Title` will. 
-
-### Adding images
-
-Here's an example of how to add an image to my portfolio.  
-
-![funny dog picture](funny-dog-unsplash.jpg)
-> Photo by <a href="https://unsplash.com/pt-br/@charlesdeluvio?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">charlesdeluvio</a> on <a href="https://unsplash.com/photos/K4mSJ7kc0As?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
-  
-
-Alternately, you can set the size of the image using just a bit of HTML: 
-
-<img src="funny-dog-unsplash.jpg" width="200"/>
-
-Remember that you'll need to upload the image into your repository, or include a link to the image somewhere else.  
-
-### Setting up a separate page
-
-So here's the code you'll need to add to your own site to create a second page. 
-
-1. First, create a new page in your repository (for example, dataviz1.md)
-2. Next, add a link to that page by inserting the following into your readme.md page:
-
-`[title](dataviz)` or `[dataviz](https://cmustudent.github.io/portfolio/dataviz.html)` or `[CMU](https://www.cmu.edu)`
-
-Any of those formats will work. Here's some examples of working links: 
-
-`[title](dataviz)` = [title](dataviz)  
-`[dataviz](https://cmustudent.github.io/portfolio/dataviz.html)` = [dataviz](https://cmustudent.github.io/portfolio/dataviz.html)  
-`[CMU](https://www.cmu.edu)` = [CMU](https://www.cmu.edu)   
-
-Make sure to check these from your publicly accessible URL to make sure they're working correctly (not from the preview tab). 
-
-Looking for more?  A nice Markdown guide [can be found here](https://www.markdownguide.org/cheat-sheet/)
 
 ## References
-_List any references you used here._
+_List any references used for this page here._
 
 ## AI acknowledgements
-_If you used AI to help you complete this assignment (within the parameters of the instruction and course guidelines), detail your use of AI for this assignment here._
-
+I used an AI coding assistant to set up this portfolio — forking the course template, enabling GitHub Pages, and drafting the About me / What I hope to learn sections based on my own resume, within the course's permitted AI-use guidelines. All facts on this page reflect my own background and plans.
