@@ -4,6 +4,8 @@
 
 *Telling Stories with Data, Fall 2026. This page documents my first graphic critique, evaluated using the Good Charts framework (Berinato, 2016) and a paired critique with Microsoft Copilot.*
 
+*Original submitted document: [critique-1-submission.docx](critique-1-submission.docx)*
+
 ## The graphic I evaluated
 
 I selected **Graphic #2**: a dark-themed Makeover Monday choropleth map, *"Written in 1839, Still the Law Today: Married Women's Property Act."* Each U.S. state is shaded by the year it adopted a married women's property law.
