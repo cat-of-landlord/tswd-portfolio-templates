@@ -1,4 +1,4 @@
-| [home page](https://cat-of-landlord.github.io/tswd-portfolio-templates/) | [data viz examples](dataviz-examples) | [critique by design](critique-by-design) | [final project I](final-project-part-one) | [final project II](final-project-part-two) | [final project III](final-project-part-three) |
+| [home page](https://cat-of-landlord.github.io/tswd-portfolio-templates/) | [ai critique](ai-critique) | [data viz examples](dataviz-examples) | [critique by design](critique-by-design) | [final project I](final-project-part-one) | [final project II](final-project-part-two) | [final project III](final-project-part-three) |
 
 # Junhao Huang — Data Visualization Portfolio
 
@@ -13,7 +13,7 @@ Hi, I'm **Junhao Huang**! I'm a Master of Information Systems Management (MISM) 
 
 <img src="junhao-huang.jpg" width="260"/>
 
-Before grad school, I worked as a Research Assistant with Prof. Kai Shu's group at Emory, where I co-authored a paper on a retrieval-grounded differential evidence framework for medical multiple-choice question answering — accepted to the AACL-IJCNLP 2026 Main Conference. I've also interned as a Network Engineer at New H3C Technologies (deploying a virtualized cloud-desktop solution for a government tax bureau) and as a Management System Development intern at Dezhan Metals Processing Group, where I helped translate 150+ client requirements into system specs and prototyped UI in Axure.
+During my final year at Emory, I joined Prof. Kai Shu's research group as an undergraduate researcher, where I co-authored a paper on a retrieval-grounded differential evidence framework for medical multiple-choice question answering — accepted to the AACL-IJCNLP 2026 Main Conference. I've also interned as a Network Engineer at New H3C Technologies (deploying a virtualized cloud-desktop solution for a government tax bureau) and as a Management System Development intern at Dezhan Metals Processing Group, where I helped translate 150+ client requirements into system specs and prototyped UI in Axure.
 
 In project work, I led a 4-person team to win the **"Best Insight" award** at the 2025 Emory Data Fest (top 3 of 20 teams), built the front-end for a medical-device selection chatbot (CS 370 Practicum), and implemented logistic-regression, reinforcement-learning (Q-learning / value iteration) and neural-network models across my ML and AI coursework.
 
@@ -39,6 +39,7 @@ This section pre-populates the pages I'll fill in throughout the course. The pag
 
 ## Assignments
 
+- [AI Critique #1 — The Good Charts Matrix](ai-critique)
 - [Data visualization examples](dataviz-examples)
 - [Critique by Design](critique-by-design)
 
