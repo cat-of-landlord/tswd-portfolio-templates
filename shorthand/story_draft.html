@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<!--
+  Shorthand custom-HTML fallback draft — Part II framework
+  --------------------------------------------------------
+  Primary path: native Shorthand story built from the White paper template
+  (editor and preview links recorded in NOTES_part2.md). This file is the
+  self-contained fallback for any section that needs custom markup.
+  Local preview uses ../sketch*.png relative paths; in Shorthand, upload the
+  sketch images to the media library, or replace schematic slots with Tableau
+  Public iframes in Part III. Slots marked [TABLEAU: ...] hold final views.
+-->
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>What Did Agriculture Cost?</title>
+<style>
+  :root {
+    --parchment: #F2EAD8;
+    --charcoal: #2E2A26;
+    --olive: #6E7F5A;
+    --sand: #D9B382;
+    --terracotta: #B5563C;
+    --max: 720px;
+  }
+  * { box-sizing: border-box; margin: 0; }
+  body {
+    background: var(--parchment);
+    color: var(--charcoal);
+    font-family: -apple-system, "Segoe UI", Inter, sans-serif;
+    line-height: 1.65;
+  }
+  .wrap { max-width: var(--max); margin: 0 auto; padding: 48px 24px; }
+  h1, h2 { font-family: Georgia, "Source Serif Pro", serif; }
+  .hero { padding: 96px 24px 64px; text-align: center; }
+  .hero h1 { font-size: 2.4rem; margin-bottom: 16px; }
+  .hero .dek { font-size: 1.15rem; color: #5a534b; max-width: 560px; margin: 0 auto; }
+  section { margin: 56px 0; }
+  .act-tag {
+    display: inline-block; font-size: 0.78rem; letter-spacing: 0.12em;
+    text-transform: uppercase; color: var(--olive); font-weight: 600; margin-bottom: 8px;
+  }
+  h2 { font-size: 1.6rem; margin-bottom: 14px; }
+  p { margin-bottom: 14px; }
+  .cards { display: flex; gap: 12px; flex-wrap: wrap; margin: 20px 0; }
+  .card { flex: 1 1 140px; background: #fff; border: 1px solid #ddd2bd; border-radius: 6px; padding: 14px; }
+  .card .num { font-family: Georgia, serif; font-size: 1.3rem; font-weight: bold; color: var(--terracotta); }
+  .card .lab { font-size: 0.8rem; color: #6b6258; }
+  figure { margin: 28px 0; }
+  figure img { width: 100%; border: 1px solid #ddd2bd; border-radius: 6px; background: #fff; }
+  figcaption { font-size: 0.82rem; color: #6b6258; margin-top: 8px; }
+  .cta {
+    border-left: 4px solid var(--terracotta);
+    background: #fff; padding: 24px 28px; border-radius: 0 6px 6px 0; margin: 32px 0;
+  }
+  .cta strong { color: var(--terracotta); }
+  footer { margin-top: 64px; font-size: 0.8rem; color: #6b6258; border-top: 1px solid #ddd2bd; padding-top: 20px; }
+  .slot {
+    border: 2px dashed var(--sand); border-radius: 6px; padding: 32px;
+    text-align: center; color: #8a7f6f; font-size: 0.9rem; background: #fbf6ea;
+  }
+</style>
+</head>
+<body>
+
+<!-- ============ HERO ============ -->
+<header class="hero">
+  <h1>What Did Agriculture Cost?</h1>
+  <p class="dek">Ten thousand years ago, farming let humans settle down and grow in number. The bones of that period show what the growth cost the people living through it.</p>
+</header>
+
+<div class="wrap">
+
+  <!-- ============ ACT 1 ============ -->
+  <section>
+    <span class="act-tag">Act 1 · The promise of stability</span>
+    <h2>More food, more people, permanent homes</h2>
+    <p>For most of human history, food was uncertain. A failed hunt or a dry season could mean hunger. In the Fertile Crescent, the domestication of grains and animals changed that: surplus could be stored, villages could be permanent, and more children survived. By every scale we usually measure, this looked like progress.</p>
+    <div class="cards">
+      <div class="card"><div class="num">~13 ha</div><div class="lab">Çatalhöyük settlement footprint</div></div>
+      <div class="card"><div class="num">~1,150 yr</div><div class="lab">Continuous occupation, 7100–5950 cal BCE</div></div>
+      <div class="card"><div class="num">470</div><div class="lab">Documented burials studied</div></div>
+      <div class="card"><div class="num">3,500–8,000</div><div class="lab">Peak estimated residents (Middle Period)</div></div>
+    </div>
+
+    <!-- [TABLEAU: site map — excavated Neolithic Near Eastern sites, color by estimated size] -->
+    <figure>
+      <div class="slot">Site map slot — Neolithic Near Eastern settlements (Part III: Tableau / ArcGIS embed)</div>
+    </figure>
+
+    <!-- [TABLEAU: population growth line, Act 1] -->
+    <figure>
+      <img src="../sketch1_population.png" alt="Population growth timeline, Act 1">
+      <figcaption>Estimated regional population, schematic. Final values: Neotoma / site occupation estimates. Site facts: Larsen et al. (2019).</figcaption>
+    </figure>
+  </section>
+
+  <!-- ============ ACT 2 ============ -->
+  <section>
+    <span class="act-tag">Act 2 · The hidden tradeoff</span>
+    <h2>Reliable food was not the same as good food</h2>
+    <p>Where foragers ate dozens of wild plants and animals, early farmers relied on a small number of staples. The skeletons tell the cost: adults grew shorter, childhood stress marks were common, and teeth showed the strain of a carbohydrate-heavy diet. The community was growing — but the people in it were not thriving.</p>
+
+    <!-- [TABLEAU: diet breadth comparison] -->
+    <figure>
+      <img src="../sketch4_diet.png" alt="Diet breadth comparison, foragers vs early farmers">
+      <figcaption>Food-source categories, schematic. Final counts: Open Context faunal NISP and published botanical remains.</figcaption>
+    </figure>
+
+    <!-- [TABLEAU: stature by period and sex] -->
+    <figure>
+      <img src="../sketch2_stature.png" alt="Average stature by period and sex">
+      <figcaption>Stature source: Marciniak et al. (2022), PNAS Dataset S1 (n=167, European comparative sample). Near Eastern samples to be added.</figcaption>
+    </figure>
+
+    <!-- [TABLEAU: caries by period and sex] -->
+    <figure>
+      <img src="../sketch7_caries.png" alt="Carious lesion prevalence by period and sex, Çatalhöyük">
+      <figcaption>Source: Larsen et al. (2019), PNAS. Adult females 10.5 / 12.9 / 10.4%; adult males 9.7 / 10.0 / 11.0%.</figcaption>
+    </figure>
+  </section>
+
+  <!-- ============ ACT 3 ============ -->
+  <section>
+    <span class="act-tag">Act 3 · The human cost</span>
+    <h2>Harder, sicker lives inside a larger society</h2>
+    <p>Farming was also more work. Fields and herds demanded daily, repetitive labor, and crowded settlements brought parasites and infections. The bones show worn joints, spinal strain, healed head injuries, and teeth marked by a staple-heavy diet. A larger, denser society had become harder to live inside — and the people carrying those costs are the ones the aggregate numbers leave out.</p>
+
+    <!-- [TABLEAU: localized infection over time] -->
+    <figure>
+      <img src="../sketch8_infection.png" alt="Subperiosteal reactions Early/Middle/Late">
+      <figcaption>Source: Larsen et al. (2019), PNAS. Localized skeletal infection: 33% Early, 26% Middle, 19% Late.</figcaption>
+    </figure>
+
+    <!-- [TABLEAU: workload and mobility markers] -->
+    <figure>
+      <img src="../sketch5_workload.png" alt="Workload and mobility markers by group">
+      <figcaption>Workload markers, schematic. Final values: Larsen et al. (2019) and comparative studies.</figcaption>
+    </figure>
+
+    <!-- [TABLEAU: pathology burden panel] -->
+    <figure>
+      <img src="../sketch3_health.png" alt="Health burden comparison across three population groups">
+      <figcaption>Pathology prevalence, schematic. Final values: Larsen et al. (2019) SI tables and comparative meta-studies.</figcaption>
+    </figure>
+  </section>
+
+  <!-- ============ CLOSING ============ -->
+  <section>
+    <span class="act-tag">Closing · What should we count?</span>
+    <h2>Growth up, bodies down on the same timeline</h2>
+    <p>This is not an argument against agriculture. It is a question about measurement. Judged by how many people it supported, farming was a triumph. Judged by how its people's bodies held up, the picture changes. Ten thousand years later, societies still grow in ways that please aggregate numbers while individual outcomes lag. Which metrics should we trust to tell us whether life is actually getting better?</p>
+
+    <p><strong>What does the headline count?</strong> Population, stored surplus, and settlement size are real achievements; they do not measure how individuals fared inside the system. <strong>Who carries the hidden cost?</strong> The people whose bones record shorter stature, worn joints, infection, and trauma rarely appear in the success metrics of the transition that shaped their lives. <strong>What would a fairer metric set look like?</strong> Any measure of progress that counts aggregate growth but omits individual outcomes tells a partial story.</p>
+
+    <!-- [TABLEAU: dual-axis paradox timeline] -->
+    <figure>
+      <img src="../sketch6_paradox.png" alt="Dual-axis timeline: population rising while stature declines">
+      <figcaption>Schematic dual-axis view; final series use cleaned dataset values. Stature reference: Marciniak et al. (2022).</figcaption>
+    </figure>
+
+    <div class="cta">
+      <strong>Before you leave,</strong> think of one metric your own field or team uses to judge "progress" — and consider who that metric leaves out.
+    </div>
+  </section>
+
+  <footer>
+    Sources: Larsen et al. (2019, PNAS); Marciniak et al. (2022, PNAS); Open Context Çatalhöyük Zooarchaeology; Rosenstock et al. (2019); Neotoma Paleoecology Database. Full references on the portfolio Part II page.
+  </footer>
+
+</div>
+</body>
+</html>

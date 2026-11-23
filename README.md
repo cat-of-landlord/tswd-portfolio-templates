@@ -48,7 +48,7 @@ This section pre-populates the pages I'll fill in throughout the course. The pag
 The final project will be documented across three parts:
 
 - [Final Project Part I](final-project-part-one)
-- [Final Project Part II](final-project-part-two)
+- [Final Project Part II](final-project-part-two) — [Shorthand working draft](https://preview.shorthand.com/h0DWXOv0qgrajHY5/responsive/desktop)
 - [Final Project Part III](final-project-part-three)
 
 ---
