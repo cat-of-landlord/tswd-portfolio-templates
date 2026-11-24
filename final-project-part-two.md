@@ -265,6 +265,11 @@ Part II does not implement every suggested change; it records the planned Part I
 - Neotoma Paleoecology Database. https://www.neotomadb.org
 - Berinato, S. *Good Charts*, Chapter 7: Persuasion or manipulation? The blurred edge of truth. Harvard Business Review Press.
 
+### Photography credits
+
+- **Hero background (section header):** "Çatalhöyük, 7400 BC, Konya, Turkey - UNESCO World Heritage Site, 07.jpg" by Murat Özsoy 1958, licensed CC BY-SA 4.0, Wikimedia Commons: https://commons.wikimedia.org/wiki/File:%C3%87atalh%C3%B6y%C3%BCk,_7400_BC,_Konya,_Turkey_-_UNESCO_World_Heritage_Site,_07.jpg
+- **Title / byline background:** "Çatalhöyük view 7.jpg" by Verity Cridland, licensed CC BY 2.0, Wikimedia Commons: https://commons.wikimedia.org/wiki/File:%C3%87atalh%C3%B6y%C3%BCk_view_7.jpg
+
 ## AI acknowledgements
 
 - **Process support:** An AI assistant helped structure the Part II storyboard, draft interview questions, and organize the feedback-to-change mapping. The audience definition, persona framing, story arc, and interpretation of Part I feedback were my own decisions.
