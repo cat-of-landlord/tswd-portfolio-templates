@@ -28,6 +28,10 @@ Part I received feedback from two reviewers. Each comment was mapped by impact o
 
 This Part II draft is a working storyboard: major sections are in place, body copy is drafted, and critical views exist as early renders (draft links at the top of this page). Missing pieces (final Tableau builds, real map layer, polished annotations) are scheduled for Part III. The final medium is a Shorthand scrolling story built from its native long-form template, with Tableau Public visualizations embedded; a self-contained HTML fallback draft is kept alongside this page in case a section needs custom markup.
 
+**Draft structure adjustments made while assembling the Shorthand version.** The working draft began from a long-form template that carried extra empty sections and placeholder stock imagery. Seven empty or stock-only sections with no planned content were removed rather than filled, which keeps the story within the account's section limit. The Act 3 workload-and-mobility view, originally planned as its own chart-backed section, now appears as a text sub-block under "The human cost"; its sketch remains in the HTML fallback and in the roster below. The standalone chart section was removed because Shorthand's built-in chart layer is a Business/Enterprise-plan feature on this account: its template sample data could not be cleared or edited in place, and leaving the template's sample marketing figures in a data story would have been misleading. Short chart-background sections were given a heading, a one-paragraph reading, and a source caption so the background renders with enough text; heading, subtitle, and body still share one editor block and will be split for finer typography in Part III.
+
+**Known Part III visual carry-overs.** The hero, title, and closing CTA still use placeholder stock images; the Act 1 site map panel is not yet built; the schematic views are rebuilt in Tableau once cleaned source data is ready; mobile portrait alternates and per-chart captions are still pending.
+
 ### 2.2 Storyboard overview
 
 ```
@@ -130,7 +134,7 @@ This Part II draft is a working storyboard: major sections are in place, body co
 | 4 | Stature by period/sex | Grouped bars, sex comparison | Act 2: bodies shrink | Marciniak et al. (2022) Dataset S1 | Real published means; cleaned sample pending |
 | 5 | Caries by period/sex | Grouped bars, sex comparison | Act 2: oral health stays compromised | Larsen et al. (2019) | Real published values |
 | 6 | Infection over time | Three-period bars | Act 3: crowding and localized infection | Larsen et al. (2019) | Real published values |
-| 7 | Workload markers | Grouped bars by marker type | Act 3: harder labor | Larsen et al. (2019); comparative studies | Schematic draft |
+| 7 | Workload markers | Grouped bars by marker type | Act 3: harder labor | Larsen et al. (2019); comparative studies | Schematic draft; in the current Shorthand draft this view is an Act 3 text sub-block, and the sketch is kept in the HTML fallback |
 | 8 | Pathology burden | Grouped bars by condition | Act 3: combined disease burden | Larsen et al. (2019) SI tables | Schematic draft |
 | 9 | Closing paradox | Dual-axis timeline | Resounding message | Combined cleaned datasets | Schematic draft |
 
