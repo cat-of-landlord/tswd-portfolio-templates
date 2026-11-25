@@ -195,22 +195,25 @@ A secondary audience is readers who seek out history and anthropology in museum-
 
 ### 3.5 Interview findings
 
-*To be completed after the interviews. Interviewees are described generically; no PII is recorded.*
+*Two of the three planned sessions were completed during the 11/24 in-class critique group; the Interview 3 column is intentionally left blank pending a third session. Because time was limited, both sessions were abbreviated free-form reactions to the live draft rather than full walkthroughs of the 14-question script. The two peers reviewed the draft together as a group, so the recording captures their feedback at the group level rather than attributing each point to one person; the same group-level observations are therefore noted in both columns. Interviewees are described generically and no PII is recorded.*
 
-| Questions | Interview 1 (generic description) | Interview 2 (generic description) | Interview 3 (generic description) |
+- **Interview 1:** peer in the assigned critique group, graduate student, 20s, technical/policy background.
+- **Interview 2:** peer in the assigned critique group, graduate student, 20s, applied analytics background.
+
+| Questions | Interview 1 (group-level) | Interview 2 (group-level) | Interview 3 (not yet conducted) |
 |---|---|---|---|
-| Q1–2: Core paradox understood in their own words? |  |  |  |
-| Q3–4: Story turn and logic clear?  |  |  |  |
-| Q5–7: Chart readability, labels, most/least convincing view? |  |  |  |
-| Q8–10: Relevance; modern parallel earned or forced? |  |  |  |
-| Q11–12: CTA clarity; intended audience? |  |  |  |
-| Q13–14: Confusion, jargon, missing pieces? |  |  |  |
+| Q1–2: Core paradox understood in their own words? | Yes; restated the story as farming bringing surplus and population growth while individual nutrition and health worsened. | Same; the group framed the central question as whether progress benefits the individuals inside a growing system. |  |
+| Q3–4: Story turn and logic clear? | Not probed in the abbreviated session; no objections raised during the read-through. | Same. |  |
+| Q5–7: Chart readability, labels, most/least convincing view? | Charts placed in section backgrounds are hard to read: foreground headers and short section windows crop or cover them; recommended moving charts beside the text in a side-by-side layout. | Same concern; suggested combining population growth, stature change, and quality-of-life measures into one unified timeline so the contrast reads in a single view. |  |
+| Q8–10: Relevance; modern parallel earned or forced? | The modern parallel (e.g., current technology transitions) was discussed as relevant; the group advised keeping the connection reflective and avoiding overly controversial political content. | Same. |  |
+| Q11–12: CTA clarity; intended audience? | Recommended turning the "who bears the cost and who gets the benefits" question into a clear headline rather than leaving it inside body text. | Same. |  |
+| Q13–14: Confusion, jargon, missing pieces? | The dark blue color scheme over background images reduces readability; suggested a lighter, more visible palette and simpler layouts. | Same. |  |
 
 **Synthesis notes (consistent vs. conflicting feedback):**
 
-- *Consistent observations across interviews:* to be filled in after sessions.
-- *Conflicting or divergent observations:* to be filled in after sessions.
-- *Direct quotes worth keeping:* to be filled in after sessions, with the question they answered noted.
+- *Consistent observations across interviews:* both peers converged on the same four points — background charts are cropped or obscured and should move beside the text; the dark blue palette hurts readability; the key metrics would hit harder as one unified timeline; the cost/benefit question should be a headline.
+- *Conflicting or divergent observations:* none recorded. The session was a shared group discussion and no divergent views were captured; a third session will be used to test whether the same points hold independently.
+- *Direct quotes worth keeping:* "The individual does not necessarily guarantee to get benefits from every time the progress is happening." (group discussion, on the core paradox; source: 11/24 class recording)
 
 ---
 
@@ -224,15 +227,22 @@ Part II does not implement every suggested change; it records the planned Part I
 | More chart variety requested in Part I | Maintain the nine-view roster; replace schematic renders with Tableau builds once cleaned data is ready; add the site map as its own panel. |
 | Museum-style connection devices suggested | Apply the Section 5 moodboard consistently: earthy palette, short metric cards, then/now contrast; add one "what the bones show" explainer panel defining stature, hypoplasia, caries, and lesions for non-specialists. |
 | CTA needed definition | Keep the metric-reflection CTA in the closing; verify in interviews that it reads as a reflection prompt rather than an instruction to act externally. |
-| Findings from the three interviews (to be added) | Row added after sessions: observation → specific visualization, copy, or structure change planned. |
+| Charts in background are cropped or covered by headers and short section windows (Interviews 1–2) | Move every data chart out of the background into a foreground media block, using half-width side-by-side layouts (chart on one side, interpretation on the other); reserve full-bleed backgrounds for site photography and other non-data imagery. |
+| Dark blue color scheme reduces readability (Interviews 1–2) | Shift to the lighter earthy palette from the moodboard, reduce overlay opacity over media, and verify text contrast against every section. |
+| The key metrics are spread across separate views (Interviews 1–2) | Build one unified timeline view in Tableau that aligns population growth, stature change, and health indicators on a shared time axis so the paradox reads in a single comparison. |
+| The cost/benefit question is buried in body text (Interviews 1–2) | Promote "who bears the cost and who gets the benefits" to the closing section headline. |
+| Modern parallel could read as political (Interviews 1–2) | Keep the closing parallel reflective and generic; no named companies or political actors. |
+| Only two of three interviews completed | Re-run the full script with a third reader where possible; update the blank column and re-check whether the group-level findings hold independently. |
 
 **Open Part III priorities (ordered by story impact and ease):**
 
-1. Clean and join the Marciniak (2022) stature sample; rebuild the stature and closing paradox views in Tableau with real Near East/Europe labeled values and source captions.
-2. Transcribe Larsen (2019) prevalence tables; rebuild the pathology and workload panels in Tableau; keep the caries and infection views as verified real-data views.
-3. Resolve the site map: simple mapped points vs. embedded ArcGIS layer.
-4. Apply consistent moodboard styling across all views and the Shorthand sections.
-5. Revise copy and chart order based on interview synthesis.
+1. Move the eight chart views from background slots to foreground/half-width side-by-side layouts in Shorthand; verify no chart is cropped on wide and tall screens.
+2. Build the unified timeline view (population, stature, health) in Tableau with real labeled values and source captions.
+3. Clean and join the Marciniak (2022) stature sample; rebuild the stature and closing paradox views with real Near East/Europe values.
+4. Transcribe Larsen (2019) prevalence tables; rebuild the pathology and workload panels; keep the caries and infection views as verified real-data views.
+5. Replace the dark blue overlay scheme with the lighter earthy palette and promote the cost/benefit question to the closing headline.
+6. Resolve the site map: simple mapped points vs. embedded ArcGIS layer.
+7. Conduct the third interview and revise copy and chart order against the full synthesis.
 
 ---
 
